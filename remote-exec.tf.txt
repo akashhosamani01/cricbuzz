@@ -1,0 +1,8 @@
+ provisioner "remote-exec" {
+    inline = [
+      "sudo apt install httpd",
+      "sudo apt install docker-y",
+      "systemctl enable docker",
+      "systemctl start docker",
+    ]
+  }

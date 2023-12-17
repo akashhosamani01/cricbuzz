@@ -1,0 +1,8 @@
+version :
+  
+
+  services:
+    web:
+     image:infrastructureascode/hello-world
+     port:
+        -"8000"
